@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Burzum';
+    src: url('../font/GregorianFLF.ttf') format('truetype');
+}
+
+:root{
+    --font-destaque: 'Burzum'
+}
+
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header{
+    text-align: center;
+    font-family: var(--font-destaque);
+    font-size: 2.1em;
+}
+
+#under{
+    text-decoration: underline;
+}
+
+#feliz{
+    color: #ff287e;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#tenebroso{
+    color: red;
+    font-style: italic;
+}
+
+#link{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+#link:hover{
+    text-decoration: underline;
+    font-style: italic;
+}
